@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.8.12-slim-bullseye
 
 RUN apt-get update \
     && apt-get --no-install-recommends -y install unzip libaio1 \
